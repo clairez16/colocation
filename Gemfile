@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.5.1'
 
-
+#Base du Wagon
 gem 'jbuilder', '~> 2.0'
 gem 'pg', '~> 0.21'
 gem 'puma'
@@ -16,8 +16,6 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 
-gem 'devise'
-
 group :development do
   gem 'web-console', '>= 3.3.0'
 end
@@ -30,3 +28,7 @@ group :development, :test do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'dotenv-rails'
 end
+
+#Ajouté
+gem 'devise'
+gem "pundit"

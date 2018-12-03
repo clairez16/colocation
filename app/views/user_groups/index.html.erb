@@ -1,0 +1,3 @@
+<% @colocations.each do |colocation| %>
+  <li><%= link_to colocation.name, user_group_path(colocation.id) %></li>
+<% end %>
